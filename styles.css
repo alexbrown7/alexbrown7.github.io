@@ -36,7 +36,6 @@ header {
 }
 
 .card {
-  display: none;
   margin: 20px auto;
   padding: 20px 40px;
   max-width: 500px;
