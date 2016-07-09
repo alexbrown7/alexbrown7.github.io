@@ -36,15 +36,30 @@ header {
 }
 
 .card {
+  display: none;
   margin: 20px auto;
   padding: 20px 40px;
   max-width: 500px;
   background: #fff;
-  border-bottom: 4px solid #31194B;
+  border-bottom: 4px solid grey;
   border-radius: 6px;
   transition: all .5s;
 }
 
 .card-header {
   text-align: center;
+}
+
+.slideshow-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.slide {
+  position: absolute;
+  transition: opacity .5s ease-in;
+}
+
+img + img {
+  opacity: 0;
 }
